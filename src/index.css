@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'grotesque';
+    src: url('./assets/fonts/Rene\ Bieder\ -\ Galano\ Grotesque\ Alt\ DEMO\ Bold.otf');
+}
