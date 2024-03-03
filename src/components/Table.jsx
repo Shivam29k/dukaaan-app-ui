@@ -8,7 +8,7 @@ function Table() {
         <div className='bg-white-500 px-3 pt-3 pb-2 rounded-lg grid gap-4'>
             <Tabletop />
             <div class="relative overflow-x-auto">
-                <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
                     <thead class="text-xm font-medium rounded uppercase text-black-400">
                         <tr>
                             <th scope="col" class="px-6 py-3 font-medium">
@@ -31,8 +31,8 @@ function Table() {
                     {orderData.map((order) => {
                         return (
                             <tbody>
-                                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                    <th scope="row" class="px-6 py-4 font-medium text-blue-700 whitespace-nowrap dark:text-white">
+                                <tr class="bg-white border-b">
+                                    <th scope="row" class="px-6 py-4 font-medium text-blue-700 whitespace-nowrap">
                                         #{order.id}
                                     </th>
                                     <td class="px-6 py-4 flex items-center gap-2 text-black-600">
